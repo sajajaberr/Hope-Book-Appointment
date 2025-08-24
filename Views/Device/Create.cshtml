@@ -1,0 +1,67 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model HopeBookAppointment.Models.DeviceModel;
+
+<html>
+<head>
+
+</head>
+<body>
+    <form asp-action="AddNewDevice" enctype="multipart/form-data">
+        <div class="row">
+            <div class="col-md-4">
+                Device Name
+                <span class="text-danger">*</span>
+                <input type="text" class="form-control" asp-for="DeviceName" />
+                <span asp-validation-for="DeviceName" class="text-danger"></span>
+            </div>
+            <div class="col-md-4">
+                Responsible Employee
+                <span class="text-danger">*</span>
+                <input type="text" class="form-control" asp-for="ResponsibleEmployee" />
+                <span asp-validation-for="ResponsibleEmployee" class="text-danger"></span>
+            </div>
+            <div class="col-md-4">
+                Price
+                <input type="text" id="txtPrice" class="form-control" asp-for="Price" onkeypress="return IsNumber(this)" />
+            </div>
+           
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                Descriptions
+                <textarea type="text" class="form-control" rows="3" asp-for="Description"></textarea>
+            </div>
+            <div class="col-md-4">
+                <label for="formFile" class="form-label">Attachment</label>
+                <input type="file" class="form-control" asp-for="Image" />
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <input type="submit" class="btn btn-primary" value="Create New Device" />
+            </div>
+        </div>
+    </form>
+
+    <script type="text/javascript">
+        function IsNumber(evt) {
+
+            var charCode = (evt.which) ? evt.which : event.keyCode;
+            if (charCode > 31 && (charCode < 48 || charCode > 57) && (charCode != 46))
+                return false;
+            else
+                return true;
+        }
+    </script>
+
+
+</body>
+@section Scripts {
+    @{ await Html.RenderPartialAsync("_ValidationScriptsPartial"); }
+}
+</html>

@@ -1,0 +1,47 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model List<HopeBookAppointment.Models.DeviceWorkingHourModel>;
+<html>
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <div class="row">
+        <div class="col-md-12">
+            <a href="Create">
+                <i class="fa fa-plus-square" aria-hidden="true"></i>
+                Add New Device
+            </a>
+        </div>
+    </div>
+    <table id="example" class="table table-bordered" style="width:100%">
+        <thead>
+            <tr style="background-color: #4267b2; color: white;">
+                <th>Device Name</th>
+                <th>Working Date</th>
+                <th>Working Day</th>
+                <th>Duration</th>
+    
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (HopeBookAppointment.Models.DeviceWorkingHourModel item in Model)
+            {
+                <tr>
+                    <td>@item.DeviceName</td>
+                    <td>@item.WorkingDate.ToString("dd-MM-yyyy")</td>
+                    <td>@item.WorkingDay</td>
+                    <td>@item.FromToHour</td>
+                   
+                </tr>
+            }
+
+
+    </table>
+</body>
+</html>

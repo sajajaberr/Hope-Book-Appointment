@@ -1,0 +1,89 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model List<HopeBookAppointment.Models.PatientAppointmentModel>;
+<html>
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+    <link rel="stylesheet" href="https://cdn.datatables.net/2.2.2/css/dataTables.dataTables.css" />
+
+
+    
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="https://cdn.datatables.net/2.2.2/js/dataTables.js"></script>
+
+</head>
+<body>
+    <div class="row">
+        <div class="col-md-4">
+            Patient Name
+            <select class="form-control" id="PatientId" asp-items="@(new SelectList(ViewBag.Patients,"Id","Name"))" onchange="AssignPatient()">
+                <option value="" selected="selected">Please Select</option>
+            </select>
+            <input type="text" id="txtPatientId" />
+        </div>
+       
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <table id="example" class="table table-bordered" style="width:100%">
+                <thead>
+                    <tr style="background-color: #4267b2; color: white;">
+                        <th>Device Name</th>
+                        <th>Appotiment Date</th>
+                        <th>Working Day</th>
+                        <th>Duration</th>
+                        <th>Status</th>
+                        <th>Book This Time</th>
+                        <td></td>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (HopeBookAppointment.Models.PatientAppointmentModel item in Model)
+                    {
+                    <tr>
+                        <td>@item.DeviceName</td>
+                        <td>@item.AppotimentDate.ToString("dd-MM-yyyy")</td>
+                        <td>@item.DayName</td>
+                        <td>@item.Duration</td>
+                        @if (@item.Status == "Booked")
+                        {
+                            <td style="background-color:#f36a6a">@item.Status</td>
+                            <td>
+                               
+                            </td> 
+                        }
+                        else
+                        {
+                            <td style="background-color:#65f675">@item.Status</td>
+                            <td>
+                                <a asp-controller="PatientAppointment" asp-action="BookThisTime" asp-route-DeviceId="@item.DeviceId" asp-route-WorkingHourId="@item.DeviceWorkingHourId"><i class="fa fa-hand-o-right"></i></a>
+                            </td>
+                        }
+                        <td>
+                          
+                        </td>
+                    
+                    </tr>
+                    }
+
+
+            </table>
+        </div>
+       
+    </div>
+    <script>
+        function AssignPatient() {
+            var select = document.getElementById('PatientId');
+            var option = select.options[select.selectedIndex].value;
+            document.getElementById('txtPatientId').value = option;
+        }
+
+
+        new DataTable('#example');
+    </script>
+</body>
+</html>

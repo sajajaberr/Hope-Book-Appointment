@@ -1,0 +1,193 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\a-z\\Documents\\JanuaryBasic\\HopeBookAppointment\\wwwroot\\Files\\Device\\2449e268-30ff-4413-9055-1676bcb5d70e.jpg",
+      "PackagePath": "staticwebassets\\Files\\Device\\2449e268-30ff-4413-9055-1676bcb5d70e.jpg"
+    },
+    {
+      "Id": "C:\\Users\\a-z\\Documents\\JanuaryBasic\\HopeBookAppointment\\wwwroot\\Files\\Device\\474485032_122096885894744107_6545167744232023923_n.jpg",
+      "PackagePath": "staticwebassets\\Files\\Device\\474485032_122096885894744107_6545167744232023923_n.jpg"
+    },
+    {
+      "Id": "C:\\Users\\a-z\\Documents\\JanuaryBasic\\HopeBookAppointment\\wwwroot\\Files\\Device\\8238b323-4d5c-4e35-97ce-0607ff63636b.jpg",
+      "PackagePath": "staticwebassets\\Files\\Device\\8238b323-4d5c-4e35-97ce-0607ff63636b.jpg"
+    },
+    {
+      "Id": "C:\\Users\\a-z\\Documents\\JanuaryBasic\\HopeBookAppointment\\wwwroot\\Files\\Device\\TestImage.jpg",
+      "PackagePath": "staticwebassets\\Files\\Device\\TestImage.jpg"
+    },
+    {
+      "Id": "C:\\Users\\a-z\\Documents\\JanuaryBasic\\HopeBookAppointment\\wwwroot\\Files\\Device\\book.jpg",
+      "PackagePath": "staticwebassets\\Files\\Device\\book.jpg"
+    },
+    {
+      "Id": "C:\\Users\\a-z\\Documents\\JanuaryBasic\\HopeBookAppointment\\wwwroot\\Files\\Device\\net.png",
+      "PackagePath": "staticwebassets\\Files\\Device\\net.png"
+    },
+    {
+      "Id": "C:\\Users\\a-z\\Documents\\JanuaryBasic\\HopeBookAppointment\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\a-z\\Documents\\JanuaryBasic\\HopeBookAppointment\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\a-z\\Documents\\JanuaryBasic\\HopeBookAppointment\\wwwroot\\img\\book.jpg",
+      "PackagePath": "staticwebassets\\img\\book.jpg"
+    },
+    {
+      "Id": "C:\\Users\\a-z\\Documents\\JanuaryBasic\\HopeBookAppointment\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\a-z\\Documents\\JanuaryBasic\\HopeBookAppointment\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\a-z\\Documents\\JanuaryBasic\\HopeBookAppointment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\a-z\\Documents\\JanuaryBasic\\HopeBookAppointment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\a-z\\Documents\\JanuaryBasic\\HopeBookAppointment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\a-z\\Documents\\JanuaryBasic\\HopeBookAppointment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\a-z\\Documents\\JanuaryBasic\\HopeBookAppointment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\a-z\\Documents\\JanuaryBasic\\HopeBookAppointment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\a-z\\Documents\\JanuaryBasic\\HopeBookAppointment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\a-z\\Documents\\JanuaryBasic\\HopeBookAppointment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\a-z\\Documents\\JanuaryBasic\\HopeBookAppointment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\a-z\\Documents\\JanuaryBasic\\HopeBookAppointment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\a-z\\Documents\\JanuaryBasic\\HopeBookAppointment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\a-z\\Documents\\JanuaryBasic\\HopeBookAppointment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\a-z\\Documents\\JanuaryBasic\\HopeBookAppointment\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\a-z\\Documents\\JanuaryBasic\\HopeBookAppointment\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\a-z\\Documents\\JanuaryBasic\\HopeBookAppointment\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\a-z\\Documents\\JanuaryBasic\\HopeBookAppointment\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\a-z\\Documents\\JanuaryBasic\\HopeBookAppointment\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\a-z\\Documents\\JanuaryBasic\\HopeBookAppointment\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\a-z\\Documents\\JanuaryBasic\\HopeBookAppointment\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\a-z\\Documents\\JanuaryBasic\\HopeBookAppointment\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\a-z\\Documents\\JanuaryBasic\\HopeBookAppointment\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\a-z\\Documents\\JanuaryBasic\\HopeBookAppointment\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\a-z\\Documents\\JanuaryBasic\\HopeBookAppointment\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\a-z\\Documents\\JanuaryBasic\\HopeBookAppointment\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\a-z\\Documents\\JanuaryBasic\\HopeBookAppointment\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\a-z\\Documents\\JanuaryBasic\\HopeBookAppointment\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\a-z\\Documents\\JanuaryBasic\\HopeBookAppointment\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\a-z\\Documents\\JanuaryBasic\\HopeBookAppointment\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\a-z\\Documents\\JanuaryBasic\\HopeBookAppointment\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\a-z\\Documents\\JanuaryBasic\\HopeBookAppointment\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\a-z\\Documents\\JanuaryBasic\\HopeBookAppointment\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\a-z\\Documents\\JanuaryBasic\\HopeBookAppointment\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.HopeBookAppointment.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.HopeBookAppointment.props",
+      "PackagePath": "build\\HopeBookAppointment.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.HopeBookAppointment.props",
+      "PackagePath": "buildMultiTargeting\\HopeBookAppointment.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.HopeBookAppointment.props",
+      "PackagePath": "buildTransitive\\HopeBookAppointment.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
